@@ -21,7 +21,7 @@ fun Scandinavian-flag(middel-cross,outer-cross,background):
       rectangle(220, 160, "solid",background)))
      
   end
-   
+  # Riktig RGB kode til alle de skandinaviske landene   
 table: Land :: String, Innerst :: Any, Midten :: Any, Ytterst :: Any
   row: "Norge", color(0,32,91,1), color(255,255,255,1), color(186,12,47,1)
   row: "Finland", color(0,47,108,1), color(0,47,108,1), color(255,255,255,1)
