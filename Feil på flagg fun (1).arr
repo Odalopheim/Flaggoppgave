@@ -34,6 +34,7 @@ Dansk-flagg=Scandinavian-flag(color(255,255,255,1),color(255,255,255,1),color(21
 Islansk-flagg=Scandinavian-flag(color(210,38,48,1),color(255,255,255,1),color(0,48,135,1))
 #Færøyene 
 FaroeIsland-flagg=Scandinavian-flag(color(237, 41, 57,1),color(0, 101, 189,1),color(255, 255, 255,1))
+#Flagget kommer opp når du skriver inn navnet på flagget.
 Finske-flagget
 Norsk-flagg
 Svensk-flagg
