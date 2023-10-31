@@ -22,7 +22,7 @@ fun Scandinavian-flag(middel-cross,outer-cross,background):
      
   end
   # Riktig RGB kode til alle de skandinaviske landene   
-table: Land :: String, Innerst :: Any, Midten :: Any, Ytterst :: Any
+table: Land :: String, Middel-cross :: Any, Outer-cross :: Any, Background :: Any
   row: "Norge", color(0,32,91,1), color(255,255,255,1), color(186,12,47,1)
   row: "Finland", color(0,47,108,1), color(0,47,108,1), color(255,255,255,1)
   row: "Svergie",color(254, 204, 2,1),color(254, 204, 2,1),color(0,106,167,1)
