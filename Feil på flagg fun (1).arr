@@ -22,22 +22,11 @@ fun Scandinavian-flag(middel-cross,outer-cross,background):
      
   end
    
-#Finske 
-Finske-flagget=Scandinavian-flag(color(0,47,108,1),color(0,47,108,1),color(255,255,255,1))
-#Norsk 
-Norsk-flagg=Scandinavian-flag(color(0,32,91,1),"white",color(186,12,47,1))
-#Svenske
-Svensk-flagg=Scandinavian-flag(color(254, 204, 2,1),color(254, 204, 2,1),color(0,106,167,1))
-#ikke helt det danske
-Dansk-flagg=Scandinavian-flag(color(255,255,255,1),color(255,255,255,1),color(218,41,28,1))
-#Island
-Islansk-flagg=Scandinavian-flag(color(210,38,48,1),color(255,255,255,1),color(0,48,135,1))
-#Færøyene 
-FaroeIsland-flagg=Scandinavian-flag(color(237, 41, 57,1),color(0, 101, 189,1),color(255, 255, 255,1))
-#Flagget kommer opp når du skriver inn navnet på flagget.
-Finske-flagget
-Norsk-flagg
-Svensk-flagg
-Dansk-flagg
-Islansk-flagg
-FaroeIsland-flagg
+table: Land :: String, Innerst :: Any, Midten :: Any, Ytterst :: Any
+  row: "Norge", color(0,32,91,1), color(255,255,255,1), color(186,12,47,1)
+  row: "Finland", color(0,47,108,1), color(0,47,108,1), color(255,255,255,1)
+  row: "Svergie",color(254, 204, 2,1),color(254, 204, 2,1),color(0,106,167,1)
+  row: "Danmark",color(255,255,255,1),color(255,255,255,1),color(218,41,28,1)
+  row: "Island",color(210,38,48,1),color(255,255,255,1),color(0,48,135,1)
+  row:  "Færøyene",color(237, 41, 57,1),color(0, 101, 189,1),color(255, 255, 255,1)
+end
