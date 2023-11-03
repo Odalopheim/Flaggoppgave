@@ -19,10 +19,10 @@ kWh-wealthy-consumer-data
 fun energi-to-number(str :: String) -> Number:
   cases(Option) string-to-number(str):
     | some(a) => a
-    | none => 0
+    | none => 120
   end
 where:
-  energi-to-number("") is 0
+  energi-to-number("") is 120
 energi-to-number("48") is 48
 end
 
